@@ -2,6 +2,8 @@
 
 A simple game created using the pygame library. You are flying a rocket in a tunnel. The aim is to score as many points as possible. The further you get, the more points you get.
 
+![Game screenshot](media/readme.png)
+
 ### Installing
 
 Aftef you download the repo you need to install the requirements:
