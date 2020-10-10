@@ -7,8 +7,8 @@ class Obstacle:
         self.x = x
         self.width = width
         self.y_top = 0
-        self.height_top = random.randint(150, 250)
-        self.space = 200
+        self.height_top = random.randint(160, 240)
+        self.space = random.randint(170, 250)
         self.y_bottom = self.height_top + self.space
         self.height_bottom = HEIGHT - self.y_bottom
         self.color = (21, 3, 51)
