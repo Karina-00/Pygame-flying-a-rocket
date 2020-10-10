@@ -5,7 +5,7 @@ class Rocket:
     def __init__(self, x: int, y: int):
         self.x = x
         self.y = y
-        self.height = 50
+        self.height = 45
         self.width = 105
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
         self.graphics = pygame.image.load(os.path.realpath('media/rocket.png'))

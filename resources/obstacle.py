@@ -11,7 +11,7 @@ class Obstacle:
         self.space = 200
         self.y_bottom = self.height_top + self.space
         self.height_bottom = HEIGHT - self.y_bottom
-        self.color = (0, 8, 64)
+        self.color = (21, 3, 51)
         self.upper_rect = pygame.Rect(self.x, self.y_top, self.width, self.height_top)
         self.lower_rect = pygame.Rect(self.x, self.y_bottom, self.width, self.height_bottom)
 
